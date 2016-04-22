@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>menu</title>
+<style>
+  body{
+    background-image: url(http://pic.58pic.com/58pic/13/39/16/11Q58PICXWi_1024.jpg);
+  }
+    .clearfix::after{
+	    content:"";
+	    display:blok;
+	    clear:both;
+	    width:0;
+	    height:0;
+	    font-size:0;
+}
+    .menu{
+	    background-color:#ccc;
+		height:35px;
+		border-radius:50px;
+      box-shadow:1px 15px 25px #eee;
+}
+	.menu li{
+		float:left;
+		font-size:12px;
+        padding:5px 20px;
+        margin:5px;
+	}
+	.menu li:not(:first-child){
+		border-left:1px solid black;
+	}
+	.menu li a:link{
+		color:black;
+		font-weight:bold;
+		text-decoration:none;
+		padding:10px 30px;
+	}
+	.menu li a:hover{
+		background-color:black;
+	}
+	a{
+		text-decoration:none;
+        
+	}
+</style>
+</head>
+<body>
+	<ul class="menu clearfix" >
+		<li><a href="https://www.baidu.com/">首页</a></li>
+		<li><a href="http://tieba.baidu.com/">贴吧</a></li>
+		<li><a href="http://news.baidu.com/">新闻</a></li>
+		<li><a href="http://v.baidu.com/">视频</a></li>
+		<li><a href="http://baike.baidu.com/">百科</a></li>
+	</ul>
+</body>
+</html>
